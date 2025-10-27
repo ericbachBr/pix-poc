@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Agendamentos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+
+<h1>Auditorias</h1>
+
+<form method="GET" action="/auditorias">
+  <input name="idCorrelacao" placeholder="ID Correlação" value="<%= idCorrelacao %>"/>
+  <input name="tipoEvento" placeholder="Tipo Evento" value="<%= tipoEvento %>"/>
+  <button type="submit">Filtrar</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>ID Correlação</th>
+      <th>Tipo Evento</th>
+      <th>Status Fraude</th>
+      <th>Motivo Fraude</th>
+      <th>Payload</th>
+      <th>Data Ocorrência</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% auditorias.forEach(a => { %>
+    <tr>
+      <td><%= a.id %></td>
+      <td><%= a.idCorrelacao %></td>
+      <td><%= a.tipoEvento %></td>
+      <td><%= a.statusFraude || '-' %></td>
+      <td><%= a.motivoFraude || '-' %></td>
+      <td><%= a.payload || '-' %></td>
+      <td><%= new Date(a.dataOcorrencia).toLocaleString('pt-BR') %></td>
+    </tr>
+  <% }) %>
+  </tbody>
+</table>
+<button type="button" onclick="window.location.href='/'">Voltar</button>
+</body>
+</html>
+

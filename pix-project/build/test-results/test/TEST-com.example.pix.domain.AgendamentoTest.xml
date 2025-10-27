@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.pix.domain.AgendamentoTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-10-27T14:21:52.033Z" hostname="ERIC" time="0.01">
+  <properties/>
+  <testcase name="deveCompararAgendamentosComMesmoId()" classname="com.example.pix.domain.AgendamentoTest" time="0.005"/>
+  <testcase name="deveValidarDatasCorretamente()" classname="com.example.pix.domain.AgendamentoTest" time="0.001"/>
+  <testcase name="deveCriarAgendamentoComBuilder()" classname="com.example.pix.domain.AgendamentoTest" time="0.001"/>
+  <testcase name="deveAceitarValorNuloNosCamposOpcionais()" classname="com.example.pix.domain.AgendamentoTest" time="0.001"/>
+  <testcase name="devePermitirAlterarCamposComSetters()" classname="com.example.pix.domain.AgendamentoTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

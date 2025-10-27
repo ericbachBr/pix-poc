@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AuditoriaRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AuditoriaRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.pix.repository.html">com.example.pix.repository</a> &gt; AuditoriaRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.137s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">deveSalvarEAcharPorTipoEvento()</td>
+<td class="success">0.137s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-10-27T11:21:52.142-03:00  INFO 3720 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.pix.repository.AuditoriaRepositoryTest]: AuditoriaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-27T11:21:52.154-03:00  INFO 3720 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.pix.PixApplication for test class com.example.pix.repository.AuditoriaRepositoryTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2025-10-27T11:21:52.177-03:00  INFO 3720 --- [    Test worker] c.e.p.r.AuditoriaRepositoryTest          : Starting AuditoriaRepositoryTest using Java 21.0.2 with PID 3720 (started by ericb in C:\Users\ericb\git\pix-antifraud-project-gradle\pix-project)
+2025-10-27T11:21:52.177-03:00  INFO 3720 --- [    Test worker] c.e.p.r.AuditoriaRepositoryTest          : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-10-27T11:21:52.299-03:00  INFO 3720 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-27T11:21:52.342-03:00  INFO 3720 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2025-10-27T11:21:52.379-03:00  INFO 3720 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2025-10-27T11:21:52.416-03:00  INFO 3720 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:b43d61d9-cea9-4ba6-bfdd-5b65486bb03f;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-27T11:21:52.633-03:00  INFO 3720 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-27T11:21:52.693-03:00  INFO 3720 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-10-27T11:21:52.696-03:00  INFO 3720 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-10-27T11:21:52.802-03:00  INFO 3720 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-10-27T11:21:52.809-03:00  INFO 3720 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-27T11:21:52.992-03:00  INFO 3720 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-10-27T11:21:53.383-03:00  INFO 3720 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: create table agendamentos (id uuid not null, atualizado timestamp(6) with time zone, chave_pagador varchar(255), chave_recebedor varchar(255), criado timestamp(6) with time zone, data_fim timestamp(6) with time zone, data_inicio timestamp(6) with time zone, id_correlacao varchar(255), moeda varchar(255), motivo varchar(255), nome_pagador varchar(255), nome_recebedor varchar(255), periodicidade varchar(255), status varchar(255), valor numeric(38,2), primary key (id))
+Hibernate: create table auditorias (id uuid not null, data_ocorrencia timestamp(6) with time zone, id_correlacao varchar(255), motivo_fraude varchar(255), payload varchar(2000), status_fraude varchar(255), tipo_evento varchar(255), primary key (id))
+Hibernate: alter table if exists agendamentos drop constraint if exists UK_9podnv6xkap2905ngmm0ml2o0
+Hibernate: alter table if exists agendamentos add constraint UK_9podnv6xkap2905ngmm0ml2o0 unique (id_correlacao)
+2025-10-27T11:21:53.428-03:00  INFO 3720 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-27T11:21:53.755-03:00  INFO 3720 --- [    Test worker] c.e.p.r.AuditoriaRepositoryTest          : Started AuditoriaRepositoryTest in 1.598 seconds (process running for 5.161)
+Hibernate: insert into auditorias (data_ocorrencia,id_correlacao,motivo_fraude,payload,status_fraude,tipo_evento,id) values (?,?,?,?,?,?,?)
+Hibernate: select a1_0.id,a1_0.data_ocorrencia,a1_0.id_correlacao,a1_0.motivo_fraude,a1_0.payload,a1_0.status_fraude,a1_0.tipo_evento from auditorias a1_0 where a1_0.tipo_evento=? offset ? rows fetch first ? rows only
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14</a> at Oct 27, 2025, 11:21:54 AM</p>
+</div>
+</div>
+</body>
+</html>

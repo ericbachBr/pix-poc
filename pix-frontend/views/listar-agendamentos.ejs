@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Agendamentos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+ 
+<h1>Agendamentos</h1>
+<table border="1">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>ID Correlação</th>
+      <th>Status</th>
+      <th>Motivo</th>
+      <th>Chave Pagador</th>
+      <th>Nome Pagador</th>
+      <th>Chave Recebedor</th>
+      <th>Nome Recebedor</th>
+      <th>Moeda</th>
+      <th>Valor</th>
+      <th>Periodicidade</th>
+      <th>Data Início</th>
+      <th>Data Fim</th>
+      <th>Criado</th>
+      <th>Atualizado</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% agendamentos.forEach(a => { %>
+    <tr>
+      <td><%= a.agendamentoId %></td>
+      <td><%= a.idCorrelacao %></td>
+      <td><%= a.status %></td>
+      <td><%= a.motivo %></td>
+      <td><%= a.chavePagador %></td>
+      <td><%= a.nomePagador %></td>
+      <td><%= a.chaveRecebedor %></td>
+      <td><%= a.nomeRecebedor %></td>
+      <td><%= a.moeda %></td>
+      <td><%= a.valor %></td>
+      <td><%= a.periodicidade %></td>
+      <td><%= a.dataInicio ? new Date(a.dataInicio).toLocaleString('pt-BR') : '' %></td>
+      <td><%= a.dataFim ? new Date(a.dataFim).toLocaleString('pt-BR') : '' %></td>
+      <td><%= new Date(a.criado).toLocaleString('pt-BR') %></td>
+      <td><%= new Date(a.atualizado).toLocaleString('pt-BR') %></td>
+    </tr>
+  <% }) %>
+  </tbody>
+</table>
+<button type="button" onclick="window.location.href='/'">Voltar</button>
+</body>
+</html>
+
+

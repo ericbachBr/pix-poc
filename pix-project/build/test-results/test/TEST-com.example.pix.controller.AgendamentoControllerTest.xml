@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.pix.controller.AgendamentoControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-27T14:21:51.396Z" hostname="ERIC" time="0.263">
+  <properties/>
+  <testcase name="deveConsultarAgendamentoPorId()" classname="com.example.pix.controller.AgendamentoControllerTest" time="0.156"/>
+  <testcase name="deveListarAgendamentos()" classname="com.example.pix.controller.AgendamentoControllerTest" time="0.008"/>
+  <testcase name="deveCriarAgendamento()" classname="com.example.pix.controller.AgendamentoControllerTest" time="0.096"/>
+  <system-out><![CDATA[11:21:49.350 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.pix.controller.AgendamentoControllerTest]: AgendamentoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:21:49.465 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.pix.PixApplication for test class com.example.pix.controller.AgendamentoControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2025-10-27T11:21:49.804-03:00  INFO 3720 --- [    Test worker] c.e.p.c.AgendamentoControllerTest        : Starting AgendamentoControllerTest using Java 21.0.2 with PID 3720 (started by ericb in C:\Users\ericb\git\pix-antifraud-project-gradle\pix-project)
+2025-10-27T11:21:49.805-03:00  INFO 3720 --- [    Test worker] c.e.p.c.AgendamentoControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T11:21:51.355-03:00  INFO 3720 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-10-27T11:21:51.355-03:00  INFO 3720 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-10-27T11:21:51.357-03:00  INFO 3720 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-10-27T11:21:51.382-03:00  INFO 3720 --- [    Test worker] c.e.p.c.AgendamentoControllerTest        : Started AgendamentoControllerTest in 1.845 seconds (process running for 2.787)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\ericb\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.8\ae6ebe485f3bcd0a1e20241488a32e6400a501ef\byte-buddy-agent-1.14.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

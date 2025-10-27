@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.antifraud.controller.AntiFraudControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-27T14:21:41.497Z" hostname="ERIC" time="0.163">
+  <properties/>
+  <testcase name="deveRetornarRespostaDeFraude()" classname="com.example.antifraud.controller.AntiFraudControllerTest" time="0.163"/>
+  <system-out><![CDATA[11:21:39.361 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.antifraud.controller.AntiFraudControllerTest]: AntiFraudControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:21:39.471 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.antifraud.AntifraudApplication for test class com.example.antifraud.controller.AntiFraudControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2025-10-27T11:21:39.810-03:00  INFO 22092 --- [    Test worker] c.e.a.c.AntiFraudControllerTest          : Starting AntiFraudControllerTest using Java 21.0.2 with PID 22092 (started by ericb in C:\Users\ericb\git\pix-antifraud-project-gradle\antifraud-service)
+2025-10-27T11:21:39.811-03:00  INFO 22092 --- [    Test worker] c.e.a.c.AntiFraudControllerTest          : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T11:21:41.463-03:00  INFO 22092 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-10-27T11:21:41.463-03:00  INFO 22092 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-10-27T11:21:41.465-03:00  INFO 22092 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-10-27T11:21:41.488-03:00  INFO 22092 --- [    Test worker] c.e.a.c.AntiFraudControllerTest          : Started AntiFraudControllerTest in 1.937 seconds (process running for 3.299)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\ericb\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.8\ae6ebe485f3bcd0a1e20241488a32e6400a501ef\byte-buddy-agent-1.14.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

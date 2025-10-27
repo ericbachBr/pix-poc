@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.pix.service.AgendamentoServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-27T14:21:53.896Z" hostname="ERIC" time="0.091">
+  <properties/>
+  <testcase name="deveListarTodosAgendamentos()" classname="com.example.pix.service.AgendamentoServiceTest" time="0.081"/>
+  <testcase name="deveCriarAgendamentoComStatusAprovado()" classname="com.example.pix.service.AgendamentoServiceTest" time="0.007"/>
+  <testcase name="deveCriarAgendamentoComStatusRejeitado()" classname="com.example.pix.service.AgendamentoServiceTest" time="0.002"/>
+  <testcase name="deveConsultarAgendamentoPorId()" classname="com.example.pix.service.AgendamentoServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

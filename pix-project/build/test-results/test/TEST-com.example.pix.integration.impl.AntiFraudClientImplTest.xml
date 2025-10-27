@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.pix.integration.impl.AntiFraudClientImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-10-27T14:21:52.107Z" hostname="ERIC" time="0.033">
+  <properties/>
+  <testcase name="deveRetornarErroIntegracaoQuandoOcorreExcecao()" classname="com.example.pix.integration.impl.AntiFraudClientImplTest" time="0.03"/>
+  <testcase name="deveRetornarStatusQuandoRespostaPossuiStatus()" classname="com.example.pix.integration.impl.AntiFraudClientImplTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Erro ao consultar serviço de fraude: Could not extract response: no suitable HttpMessageConverter found for response type [class com.example.pix.dto.AnaliseFraudeResponse] and content type [text/plain]
+]]></system-err>
+</testsuite>
